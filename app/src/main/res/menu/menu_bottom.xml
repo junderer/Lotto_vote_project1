@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/check_num_bar"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon = "@drawable/lottoone"
+        android:title="당첨확인"/>
+    <item
+        android:id="@+id/pop_num_bar"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon = "@drawable/lottoone"
+        android:title="인기번호"
+        />
+
+    <item
+        android:id="@+id/comb_num_bar"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon = "@drawable/lottoone"
+        android:title="번호생성"/>
+
+    <item
+        android:id="@+id/rank_num_bar"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon = "@drawable/lottoone"
+        android:title="번호통계"/>
+
+
+</menu>
